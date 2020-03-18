@@ -73,5 +73,6 @@ with open(lfile) as fin:
 #S			break
 
 print(str(i)+" Lines converted")
+of.write("M3S0\r\n")
 of.write("G0X0Y0\r\n")
 of.close()
